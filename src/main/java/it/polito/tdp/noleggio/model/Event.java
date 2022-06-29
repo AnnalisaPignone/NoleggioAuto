@@ -4,7 +4,7 @@ import java.time.LocalTime;
 
 public class Event implements Comparable<Event>{
 	
-	public enum EventType {
+	public enum EventType { //classe degenere che definisce solo un insieme di costanti
 		NUOVO_CLIENTE,
 		AUTO_RESTITUITA
 	}
